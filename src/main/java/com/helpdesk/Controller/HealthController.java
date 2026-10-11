@@ -11,7 +11,7 @@ public class HealthController {
 
     @GetMapping("/health")
     public String health() {
-        return "HelpDesk API está operacional!";
+        return "HelpDesk API está funcionando!";
     }
 
     @GetMapping("/info")
