@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class TicketService {
 
     public String formatTicket(String title) {
-        return "Ticket recebido: " + title ;
+        return "Ticket recebido: " + title;
     }
 }
